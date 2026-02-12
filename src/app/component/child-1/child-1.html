@@ -1,0 +1,14 @@
+<p>child-1 works!</p>
+<div class="card">
+    <div class="card-header d-flex justify-content-between">
+        <h1 class="text-center text-success">Student List</h1>
+        <button class="btn btn-primary btn-sm">send student list</button>
+    </div>
+    <div class="card-body">
+        <ul class="list-group">
+            @for (std of students; track $index) {
+                <li class="list-group-item">{{std.name}} - Marks: {{std.marks}}</li>
+            }
+        </ul>
+    </div>
+</div>

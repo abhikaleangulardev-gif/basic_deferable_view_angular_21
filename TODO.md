@@ -1,0 +1,2 @@
+- [x] Make students array public in child-1.ts
+- [x] Update child-1.html to display student name and marks in the list items

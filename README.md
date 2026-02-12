@@ -22,3 +22,27 @@
 5. on interaction(templateRef)
 
 6. on hover
+
+7. on hover(templateRef)
+
+8. on idle
+
+9. prefetch on idle
+
+10. on interaction; prefetch on idle
+
+11. when condition
+
+12. on viewport; when condition
+
+13. on click
+
+14. on focus
+
+15. on scroll
+
+16. on resize
+
+17. on keydown
+
+18. on submit
